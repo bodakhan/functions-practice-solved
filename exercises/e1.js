@@ -13,8 +13,10 @@
  * logMessage() => 'Hello, World!'
 */
 
-// Your code goes here
-
+function logMessage() {
+const logMessage = "Hello, " + "World!";
+return console.log(logMessage)
+};
 
 
 
@@ -29,8 +31,11 @@
  * logMyMessage('My message') => 'My message'
 */
 
-// Your code goes here...
 
+function logMyMessage (message) {
+  const logMyMessage = 'I log my first message!'
+  return console.log(message)
+};
 
 
 
@@ -44,7 +49,12 @@
  * logMessageWithMyName('Andrey') => 'My name is Andrey!'
 */
 
-// Your code goes here...
+var name = 'Andrey'
+
+function logMessageWithMyName(name) {
+  const logMessageWithMyName = "My name is" + " " + name + "!";
+  return console.log(logMessageWithMyName)
+}
 
 
 
@@ -60,7 +70,13 @@
  * logMyInfo('Andrey', 18) => 'My name is Andrey. I am 18 years old!'
 */
 
-// Your code goes here...
+
+var age = 18
+
+function logMyInfo(name, age) {
+  const logMyInfo = "My name is " + name + ". I am " + age + " years old!";
+  return console.log(logMyInfo)
+}
 
 
 

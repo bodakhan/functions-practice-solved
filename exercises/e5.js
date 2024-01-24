@@ -12,7 +12,14 @@
  */
 
 // Your code goes here...
-
+var a = 18;
+function getDiffTwentySeven(a) {
+  if (a > 27) {
+    return (a - 27) * 2;
+  } else {
+    return 27 - a;
+  }
+}
 
 
 
@@ -24,7 +31,15 @@
  */
 
 // Your code goes here
-
+var b = 7
+var c = 8
+function sumOfTwoIntegers(b, c) {
+  if (b == c) {
+    return (b + c) * 3;
+  } else {
+    return b + c;
+  }
+}
 
 
 
@@ -39,7 +54,19 @@
 
 // Your code goes here...
 
-
+var d = 23
+var e = 18
+function isOneOfThemOrTheirSumIsFourty(d, e) {
+  if (d == 40) {
+    return true;
+  } else if (e == 40) {
+    return true;
+  } else if (d + e == 40) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 
 // === TEST YOURSELF ===
